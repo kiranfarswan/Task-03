@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Pathway+Extreme:wght@100&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+}
+
+.navbar .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .item {
+    list-style: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .team {
+    color: #4C4FF9;
+}
+
+
+.section1 {
+    background-color: #4C4FF9;
+    width: 100%;
+    height: 60vh;
+}
+
+.section1 .container1 {
+    width: 85%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.section1 .heading1 {
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    margin: 4.8% 28.6% 0;
+    text-align: center;
+}
+
+.section1 .para1 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin: 1.6% 10.9% 0;
+    width: 50%;
+    text-align: center;
+}
+
+.section1 .btn1 {
+    border: 1px solid none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FE7062;
+    text-decoration: none;
+    padding: 12px 35px 13px 34px;
+    width: 10%;
+    margin: 2.4% 31.3% 4.8%;
+}
+
+.btn1:hover {
+    color: #ffffff;
+    background-color: #fd4f3f
+}
+
+
+
+.section2 {
+    width: 100%;
+    height: 130vh;
+}
+
+.section2 .container2 {
+    height: 150vh;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section2 .heading2 {
+    color: #111111;
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 4.8% 28.6% 0;
+    text-align: center;
+
+}
+
+.section2 .image1 {
+    margin: 3% 8.35% 0;
+   
+}
+
+
+@media (max-width : 890px) {
+    .section2 .image1 {
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+
+.section2 .text1 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    margin: 2.8% 29.3% 0;
+}
+
+.section2 .link1 {
+    color: #4C4FF9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.section2 .text2 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    width: 100%;
+    margin-top: 29px;
+    text-align: center;
+}
+
+
+
+
+.section3 {
+    height: 100%;
+    width: 100%;
+    background-color: #eeedff;
+}
+
+.section3 .container3 {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section3 .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 50px;
+    padding-top: 90px;
+
+}
+
+.section3 .flex-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 2px solid none;
+    border-radius: 12%;
+    width: 36%;
+    height: 80vh;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic {
+    border-radius: 50%;
+    margin: 0 14%;
+
+}
+
+.section3 .text1 {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #111111;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0 0;
+    height: 60px;
+}
+
+.section3 .text2 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #4C4FF9;
+    font-weight: 600;
+    text-align: center;
+    margin: 12px 0 0;
+    height: 60px;
+}
+
+
+.section3 .text3 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    margin: 23px 0 0 0;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+
+}
+
+.section3 .icons {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 22px;
+    margin: 3% 0 0 0;
+    column-gap: 20px;
+    height: 70px;
+    width: 27px;
+
+}
+
+.section3 a {
+    text-decoration: none;
+}
+
+.section3 .text4 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    margin: 4% 25% 0;
+    width: 60%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.section3 .link1 {
+    color: #4C4FF9;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.section4 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 56vh;
+}
+
+
+.section4 .container4 {
+    width: 85%;
+    height: 56vh;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.section4 .heading {
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #111111;
+    margin: 5% 10% 0 10%;
+    text-align: center;
+}
+
+
+.section4 .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.section4 .flex-item {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 12%;
+}
+
+
+.section4 .images {
+    margin: 0 34px;
+    opacity: 0.3;
+}
+
+
+
+
+.section5 {
+    position: relative;
+    background-color: #4C4FF9;
+    width: 100%;
+    height: 56vh;
+}
+
+.section5 .container5 {
+    width: 85%;
+    height: 56vh;
+    margin: 0 auto;
+
+}
+
+
+.section5 .heading {
+    position: absolute;
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    margin: 5% 16% 0 16%;
+    text-align: center;
+}
+
+
+
+.section5 .email {
+    position: absolute;
+    border: none;
+    width: 35%;
+    height: 42px;
+    border-radius: 20px;
+    color: #ffffff;
+    border-bottom: 2px solid white;
+    margin: 14% 0 0 20%;
+}
+
+.email:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: transparent;
+}
+
+
+.button {
+    width: 20%;
+    cursor: pointer;
+
+}
+
+.button button {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FE7062;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 14% 0 0 56%;
+    padding: 12px 35px 13px 32px;
+
+}
+
+.section5 #btn:hover {
+    background-color: #fd4f3f;
+}
+
+.section5 .msg {
+    position: absolute;
+    justify-content: center;
+    left: 27%;
+    top: 44.5%;
+    text-align: center;
+    color: #fff;
+    border: none;
+    width: 85%;
+
+}
+
+
+.section5 #btn2 {
+    font-size: 18px;
+    position: absolute;
+    background-color: #62C584;
+    color: #ffffff;
+    border: none;
+    margin: 0.5% 0 0 51%;
+    padding: 0;
+    display: none;
+}
+
+.section5 .success {
+    padding: 20px;
+    font-size: 18px;
+    background-color: #62C584;
+    font-family: 'open sans' sans-serif;
+    position: absolute;
+    display: none;
+    width: 50%;
+}
+
+.section5 .failed {
+    padding: 20px;
+    font-size: 18px;
+    background-color: #62C584;
+    font-family: 'open sans' sans-serif;
+    position: absolute;
+    width: 50%;
+    display: none;
+}
+
+.section5 #btn2:hover {
+    color: grey;
+}
+
+
+
+footer {
+    background-color: #333333;
+    width: 100%;
+    height: 180px;
+}
+
+
+footer .container6 {
+    width: 85%;
+    height: 80px;
+    margin: 0 auto;
+
+}
+
+footer .para1 {
+    position: absolute;
+    margin: 4% 20% 4% 17%;
+    text-align: center;
+    width: 50%;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    display: block;
+}
+
+.section6 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 16px;
+    font-size: 12.8px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section6 .text1 {
+    color: #fff;
+    width: 6.5%;
+    margin: 0;
+
+}
+
+.section6 .link1 {
+    width: 9.5%;
+    color: #B6BAFD;
+
+}
+
+.section6 .link2 {
+    width: 15%;
+    color: #B6BAFD;
+}
+
+.section6 .link1:hover {
+    text-decoration: none;
+    color: rgb(112, 110, 110);
+}
+
+.section6 .link2:hover {
+    text-decoration: none;
+    color: rgb(112, 110, 110);
+}
